@@ -1,0 +1,59 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    background:url(plane.jpg)  no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    
+}
+.block
+{
+    position: relative;
+    margin-top: 100px;
+    width: 400px;
+    height: auto;
+    background: #dedede;
+    border-radius: 5px;
+   
+}
+h1
+{
+
+    color:blue;
+    font-size: 40px;
+    padding:20px 100px;
+    font-weight: bold;
+}
+
+div
+{
+    padding: 20px 40px;
+    font-size: 15px;
+    margin: 3px 0;
+    color:green;
+        
+    
+}
+ button
+{
+    margin:40px 50px 20px 0 ;
+    height: 40px;
+    width: 200px;
+    font-size:15px ;
+    color:blueviolet;
+    outline:none;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px;
+    background: darkslategrey;
+}
+#wronguser,#wrongfirst,#wrongage,#wronglast,#wrongpassword,#wrongaddress{
+    visibility: hidden;
+    color:red;
+}
