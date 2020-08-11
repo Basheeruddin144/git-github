@@ -1,0 +1,25 @@
+<html>
+<head><titleLogin Form></title>
+      <link rel="stylesheet" type="text/css" href="login.css"/>
+</head>
+<body>
+        <div class="container">
+            <h1>Login Form</h1>
+            <form class="form" method="post" action="index.html"  onsubmit="return validate()">
+                <label>Username</label>
+                <input  id="user" type="text"  placeholder="Enter name" name="username">
+                <label  id="wronguser">Please fill up the username </label>
+                <div class="form1">
+                    <label>Password </label>
+                    <input id="pass" type="password"  placeholder="Enter Password" id="passon">
+                <label id="wrongpass">Please enter password</label>
+                </div>                
+                <div>   
+                    <button type="submit" >Login</button>
+                </div>
+            </form>
+        </div>
+        <script src="form.js"></script>
+       
+</body>
+</html>
